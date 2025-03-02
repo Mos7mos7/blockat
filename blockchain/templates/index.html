@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Frontend</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blockchain Protocol</h1>
+        <h2>Transactions to be added to the next block</h2>
+        <table id="unmined_transactions_table">
+            <tr>
+                <th>#</th>
+                <th>Recipient Address</th>
+                <th>Sender Address</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td colspan="4" class="placeholder">No data available in table</td>
+            </tr>
+        </table>
+        <button id="mine_button">Mine</button>
+
+        <h2>Transactions on the Blockchain</h2>
+        <table id="blockchain_transactions_table">
+            <tr>
+                <th>#</th>
+                <th>Recipient Address</th>
+                <th>Sender Address</th>
+                <th>Value</th>
+                <th>Timestamp</th>
+                <th>Block</th>
+            </tr>
+            <tr>
+                <td colspan="6" class="placeholder">No data available in table</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="/static/js/scripts.js"></script>
+</body>
+</html>

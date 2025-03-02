@@ -1,0 +1,74 @@
+/* Dark Theme */
+body {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container for content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #1f1f1f; /* Dark container background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h1, h2 {
+    color: #bb86fc; /* Purple accent color */
+    margin-bottom: 20px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #333; /* Dark borders */
+    text-align: left;
+}
+
+table th {
+    background-color: #333; /* Dark header background */
+    color: #bb86fc; /* Purple accent color */
+}
+
+/* Buttons */
+button {
+    background-color: #bb86fc; /* Purple accent color */
+    color: #121212; /* Dark text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #3700b3; /* Darker purple on hover */
+}
+
+/* Forms */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #333; /* Dark input background */
+    color: #e0e0e0; /* Light text */
+}
+
+/* Placeholder text */
+.placeholder {
+    color: #666; /* Gray placeholder text */
+    font-style: italic;
+}
